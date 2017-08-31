@@ -24,15 +24,3 @@ This project is built on Mac OS, MATLAB 2016a.
 
 * app.m file is the interface of the system in MATLAB.
 
-
-
-
-
-
-
-
-
-	·	程序运行操作说明：
-	1.	如需对神经网络进行重新训练，请打开main.m文件，对于如下模块取消注释：Initialize the system、Extract the features、Define the training set and test set、Setup the parameters you will use for this exercise、Initializing Pameters、Training NN相关代码、Obtain Theta1 and Theta2 back from nn_params最后如果需要进行预测，则取消Implement Predict的注释。
-	2.	如果要运行系统，则打开并运行app.m文件，选取网络参数result_0330_87.5%.mat网络参数，之后再打开JAFEE_Database文件夹中的任意一张照片，即可进行表情识别。
-	3.	照相模块可以点按camera和shot进行测试。注：其中的人脸检测模块可以运行，但是识别准确率因为训练数据库不足的原因很低。
